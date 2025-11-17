@@ -1,0 +1,50 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Fichiers temporaires Excel
+.~lock.*
+~$*.xlsx
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Fichiers de base de données (si ajoutés plus tard)
+*.db
+*.sqlite
+*.sqlite3
